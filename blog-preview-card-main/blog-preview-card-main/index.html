@@ -1,129 +1,45 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor | Blog preview card</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="mod3/Blog Preview Card/blog-preview-card-main/blog-preview-card-main/assets/images/image-avatar.webp">
-  <style>
-    
-    
-    
-    body {
-      font-family: Arial, sans-serif;
-      background-color: hsl(47, 88%, 63%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .card {
-      background-color: white;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 10px 10px 0px black;
-      width: 320px;
-      border: 1px solid black;
-    }
-
-    .card img {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    .tag {
-      background-color: hsl(47, 88%, 63%);
-      display: inline-block;
-      padding: 5px 10px;
-      font-weight: bold;
-      margin-top: 15px;
-      border-radius: 5px;
-    }
-
-    .date {
-      font-size: 0.9rem;
-      color: hsl(0, 0%, 40%);
-      margin-top: 10px;
-    }
-
-    h2 {
-      font-size: 1.25rem;
-      margin: 15px 0 10px;
-    }
-
-    .description {
-      font-size: 0.95rem;
-      color: hsl(0, 0%, 40%);
-    }
-
-    .author {
-      display: flex;
-      align-items: center;
-      margin-top: 20px;
-    }
-
-    .author img {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Preview Card</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Container for the blog card -->
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+              
+              
+              
+              
+              <!-- Card component from Bootstrap -->
+                <div class="card mb-4">
+                    <img src="images/preview.jpg" class="card-img-top" alt="Blog preview">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Post Title</h5>
+                        <p class="card-text">A short description of the blog post. It gives a preview of the content that entices the reader to click and read more.</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted on <span class="text-primary">May 5, 2025</span> by <span class="text-primary">Author Name</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>\
 
 
 
-
-  <article class="card">
-    <img src="./assets/images/illustration-article.svg" alt="Blog preview image">
-    <span class="tag">Learning</span>
-    <p class="date">Published 21 Dec 2023</p>
-    <h2>HTML & CSS foundations</h2>
-    <p class="description">
-      These languages are the backbone of every website, defining structure, content, and presentation.
-    </p>
     
-  
-    
-    <div class="author">
-      <img src="mod3/Blog Preview Card/blog-preview-card-main/blog-preview-card-main/assets/images/illustration-article.svg" alt="Greg Hooper Avatar">
-      <span>Greg Hooper</span>
-    </div>
-  </article>
 
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Artis Watson</a>.
-  </div>
-
+    <!-- Bootstrap JS (optional for interactivity) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
 
 
 
